@@ -8,4 +8,7 @@
 
 1. Specify targed proportions for strata.
 2. Store proportions in a list.
-
+3. Use anesrake function
+4. Add new weights to the dataset
+5. Draw a weighted subsample from the dataset.
+6. Check sample weights
