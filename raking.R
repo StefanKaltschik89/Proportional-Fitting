@@ -1,11 +1,11 @@
-#Fill in the name of your dataset instead of "survey" and adapt the variable names (e.g. "gender") to your needs!
+# The name of my dataset was "survey" and i balanced the variables "gender" and "migration". Just adapt the names to your needs.
+
 #---check weights from raw-data
 wpct(survey$gender)
 wpct(survey$migration)
 
-
 #---setting target weights from population data
-#Make sure that the factor levels and names correspond to your dataframe
+#Make sure that the factor levels and names correspond to your dataframe. 
 target <- list(
   gender = setNames(c(0.50, 0.50), c("female", "male")),
   migration = setNames(c(0.3, 0.7), c("yes", "no"))
@@ -15,6 +15,7 @@ target <- list(
 survey_cleaned<-as.data.frame(survey_cleaned) 
 
 -------------------------------------------------------------------------------
+
 #---raking process
 raking<-anesrake(target,
                  survey_cleaned,
