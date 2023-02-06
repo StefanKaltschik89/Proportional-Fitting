@@ -1,4 +1,4 @@
-#Proportional Fitting aka Sample Balancing aka Raking
+# Proportional Fitting aka Sample Balancing aka Raking
 
 **Problem**: I have an non-representative convenience survey sample of 3000 students. I need a small sample for qualitative analysis that is more representative. 
 
